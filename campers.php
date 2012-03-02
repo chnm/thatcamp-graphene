@@ -109,7 +109,7 @@
                         ?>
                         <?php the_excerpt(); ?>
                     <?php endif; ?>
-                    					<p>THATCampers: to add your picture to this page, sign up for <a href="http://en.gravatar.com/site/signup/">Gravatar.com</a> and upload an image there.</p>
+                    					<p>THATCampers: to add your picture to this page, log in and upload a picture to your profile or sign up for <a href="http://en.gravatar.com/site/signup/">Gravatar.com</a> and upload an image there.</p>
                     <?php /* Display campers */ 
                     $siteUsers = get_users('orderby=display_name&exclude=246'); 					
                  
